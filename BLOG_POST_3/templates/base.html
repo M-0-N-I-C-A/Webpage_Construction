@@ -1,0 +1,28 @@
+<!doctype html>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<nav>
+  <h1>Sample Webapp </h1>
+  <!-- <b>Navigation:</b> -->
+  <ul>
+    <li><a href="{{ url_for('main') }}">Main</a></li>
+    <li><a href="{{ url_for('submit') }}">Submit</a></li>
+    <li><a href="{{ url_for('view') }}">View</a></li>
+    <li><a href="{{ url_for('viewall') }}">View All</a></li>
+  </ul>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}{% endblock %}
+</section>
+
+
+
+
+
+
+
+

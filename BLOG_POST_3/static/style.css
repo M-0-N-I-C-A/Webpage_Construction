@@ -1,0 +1,113 @@
+html {
+    font-family: serif;
+    background: Tomato;
+    padding: 1rem;
+}
+
+
+label {
+    font-family: monospace;
+    color： Tomato;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: ForestGreen;
+    font-family: monospace;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 50px
+
+}
+
+h3 {
+    color: ForestGreen;
+}
+
+h10 {
+    color: ForestGreen;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+
+h2,p {
+    color: ForestGreen;
+    font-family: "Gill Sans", sans-serif;
+    margin: 1rem 0;
+    text-align: left;
+
+}
+
+i {
+    color: rgb(180, 50, 204);
+    font-family: "Gill Sans", sans-serif;
+    margin: 1rem 0;
+    font-style: oblique;
+
+}
+
+a {
+    color: Coral;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+hr {
+    border: none;
+    border-top: 50px solid lightgray;
+}
+
+ul li {
+    color: ForestGreen;
+}
+
+nav {
+    background: Bisque;
+    padding: 0 0.5rem;
+    border-radius: 25px;
+}
+
+nav ul  {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    color: Coral;
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.4rem;
+    font-size: 19px;
+}
+
+.content {
+    padding: 0 1rem 1rem;
+    background: Bisque;
+    border-radius: 20px;
+}
+
+.flash {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    background: #cae6f6;
+    border: 1px solid #377ba8;
+}

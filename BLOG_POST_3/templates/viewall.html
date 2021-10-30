@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block header %}
+  <h1>{% block title %}All Submissions{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+	{% for message in messages %}
+	<ul>
+	 <br><h10>{{message[0]}}. {{message[1]}} - {{message[2]}}</h10>
+	</ul>
+	{% endfor %}
+{% endblock %}
